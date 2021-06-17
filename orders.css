@@ -1,0 +1,41 @@
+*{
+	padding:0px;
+}
+.back{
+	height:100%;
+	width:100%;
+	background-image:url(orderpic.jpg);
+	background-position: center;
+	background-size:cover;
+	position: absolute;
+	
+}
+.hm{
+	
+	position: absolute;
+	top:4%;
+	right:6%;
+}
+.tb{
+	position: relative;
+	margin-top: 5%;
+}
+.homii, .homii:hover, .homii:focus, .homii:active {
+text-decoration: none;
+
+}
+.homii{
+	
+	text-decoration: none;
+	color:#fff;
+	padding:10px 40px;
+	border:1px solid transparent;
+	transition: .5s ease;
+	background-color: black;
+
+}
+.homii:hover{
+	background-color: white;
+	color:black;
+	
+}

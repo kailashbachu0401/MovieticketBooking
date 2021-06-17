@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}	
+
+.contact
+{/*background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./pictures/index2.jpg);display: flex;
+	background-size: cover;";
+	/*display: flex;*/
+	background-size: cover;*/
+	position: relative;
+	height: auto;
+	padding: 10px 50px;
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	flex-direction: column;
+	background-size: cover;
+}
+.content .content
+{
+	max-width: 800px;
+	text-align: center;
+}
+
+.contact .content h2
+{
+	max-width: 36px;
+	font-weight: 500px;
+	color: black;
+}
+
+.contact .content p
+{
+	font-size: 20px;
+	color: black;	
+}
+.container{
+	bottom: 160px;
+    width: 380px;
+    height: 640px;
+    margin-left: 200px;
+    /* background-color: white; */
+    position: relative;
+    right: -50%;
+    overflow: hidden;
+	
+}
+#ContactInfo1{
+	width:240px;
+	height:200px;
+	display:inline-block;
+	position: relative;
+/*	background-color: yellow;*/
+	left:76px;
+	top:30%;
+	transition: 0.5s;
+	
+}
+#ContactInfo2{
+	width:240px;
+	height:200px;
+	position: relative;
+	display:inline-block;
+	top:-70px;
+	left:-300px;
+	transition: 0.5s;
+
+/*	background-color: red;*/
+	
+}
+
+.homii, .homii:hover, .homii:focus, .homii:active {
+text-decoration: none;
+
+}
+.homii{
+	display:inline-block;
+	text-decoration: none;
+	color:#fff;
+	padding:4px 20px;
+	border:1px solid transparent;
+	transition: .5s ease;
+	background-color: black;
+	position: absolute;
+	bottom:5px;
+
+}
+.homii:hover{
+	background-color: white;
+	color:black;
+	
+}
+.input-field{
+	width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    /* color: #8e8253; */
+    border-bottom: 2px solid #fff;
+    outline: none;
+    /* background: black; */
+    font-color: white;
+    font-family: cursive;
+}
+
+.input-field1{
+	      width: 50%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    /* background: transparent; */
+    float: left;
+    font-family: cursive;
+}
+.input-field2{
+	    width: 45%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    /* background: transparent; */
+    float: left;
+    float: right;
+    font-family: cursive;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    top: 2px;
+    /* margin-top: 2px; */
+    background: linear-gradient(to right,#ff101000,#ffd401);
+    border: 0;
+    outline: none;
+	
+}
+/*#register{
+	width:380px;
+	height:580px;
+}*/
